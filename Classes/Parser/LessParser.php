@@ -88,7 +88,7 @@ class LessParser extends \KayStrobach\Dyncss\Parser\AbstractParser{
 					dirname($inputFilename) => dirname($inputFilename),
 					PATH_site               => PATH_site
 				),
-				'cache_dir' => GeneralUtility::getFileAbsFileName('typo3temp/DynCss/Cache')
+                'cache_dir' => GeneralUtility::getFileAbsFileName('typo3temp/var/DynCss/Cache')
 			);
 
 			if($this->config['enableDebugMode']) {
