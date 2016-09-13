@@ -11,7 +11,7 @@
     "kaystrobach/dyncss": "^0.7"
   },
   "replace": {
-    "dyncss-less": "self.version",
+    "dyncss_less": "self.version",
     "typo3-ter/dyncss-less": "self.version"
   },
   "autoload": {
@@ -22,9 +22,5 @@
   "keywords": ["dyncss"],
   "homepage": "http://donate.kay-strobach.de/",
   "extra": {
-    "typo3/cms": {
-      "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": ".Build/Web"
-    }
   }
 }
